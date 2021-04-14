@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+p:first-of-type {
+    font-weight: bolder;
+}
+
+.resume {
+    font-style: italic;
+}
+
+.fun-facts {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+li:first-child {
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: orange;
+}
+
+li:nth-child(3) {
+    color: green;
+}
+
+li:nth-child(4) {
+    color: gold;
+}
+
+li:nth-child(5) {
+    color: palevioletred;
+}
+
+li:last-child {
+    color: red;
+    font-size: smaller;
+    font-weight: lighter;
+}

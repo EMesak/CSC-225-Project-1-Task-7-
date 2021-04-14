@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1: Contact Form</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="#"><b>Contact Form</b></a>
+        </nav>
+    </header>
+    <br>
+    <form method="GET">
+        <fieldset>
+            <legend>Contact Me</legend>
+            <p>
+                <label for="firstName">First Name:*</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Dwayne" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name:*</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Johnson" required>
+            </p>
+            <p>
+                <label for="email">Email:*</label>
+                <input id="email" type="email" name="email" placeholder="sample@hotmail.com" required>
+            </p>
+            <p>
+                <label for="favorite-rapper">Who's your favorite rapper and why is it Eminem?*</label>
+                <select required name="favorite-rapper" id="favorite-rapper">
+                    <option value="">- Select a Rapper -</option>
+                    <option value="eminem">Eminem</option>
+                </select>
+            </p>
+            <p>
+                Reason for contacting me:*
+                <input type="radio" name="contact-reason" id="business" value="bu" required>
+                <label for="business">Business</label>
+                <input type="radio" name="contact-reason" id="pleasure ( ͡° ͜ʖ ͡°)" value="pl">
+                <label for="pleasure ">Pleasure ( ͡° ͜ʖ ͡°)</label>
+                <input type="radio" name="contact-reason" id="¯\_(ツ)_/¯" value="¯\_(ツ)_/¯">
+                <label for="¯\_(ツ)_/¯">I Dunno ¯\_(ツ)_/¯</label>
+                <input type="radio" name="contact-reason" id="other" value="ot">
+                <label for="other">Other</label>
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <textarea placeholder="If you have any additional info you'd like to include, put it here" id="question" name="question" cols="70" rows="5"></textarea>
+            </p>
+        </fieldset>
+        <div><small><i>* Required</i></small></div>
+        <br>
+        <div><input type="submit"></div>
+    </form>
+</body>
+</html>
